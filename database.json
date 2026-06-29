@@ -15,23 +15,28 @@
           "name_value": "ShadowGamer",
           "context": "gaming",
           "visibility": "public"
+        },
+        {
+          "name_value": "Azha B.",
+          "context": "personal",
+          "visibility": "public"
         }
       ],
       "personas": {
         "professional_profile": {
-          "headline": "Software Engineering Student",
-          "linkedin_url": "https://linkedin.com/in/azhabalouch",
-          "resume_url": "https://example.com/resume.pdf"
+          "headline": { "value": "Software Engineering Student", "visibility": "public" },
+          "linkedin_url": { "value": "https://linkedin.com/in/azhabalouch", "visibility": "public" },
+          "resume_url": { "value": "https://example.com/resume.pdf", "visibility": "private" }
         },
         "social_profile": {
-          "location_city": "London",
-          "birthday_display": "2000-01-01",
-          "status_msg": "Working on CM3070 Final Project"
+          "status_msg": { "value": "Working on CM3070 Final Project", "visibility": "public" },
+          "location_city": { "value": "London", "visibility": "public" },
+          "birthday_display": { "value": "2000-01-01", "visibility": "private" }
         },
         "gaming_profile": {
-          "clan_tag": "[LDN]",
-          "discord_handle": "azha#1234",
-          "primary_platform": "PC"
+          "clan_tag": { "value": "[LDN]", "visibility": "public" },
+          "discord_handle": { "value": "azha#1234", "visibility": "public" },
+          "primary_platform": { "value": "PC", "visibility": "public" }
         }
       }
     }
