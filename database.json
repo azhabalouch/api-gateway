@@ -1,0 +1,39 @@
+{
+  "users": {
+    "test_user_123": {
+      "core_account": {
+        "primary_email": "anb21@student.london.ac.uk",
+        "is_active": true
+      },
+      "contextual_names": [
+        {
+          "name_value": "Azha Balouch",
+          "context": "professional",
+          "visibility": "public"
+        },
+        {
+          "name_value": "ShadowGamer",
+          "context": "gaming",
+          "visibility": "public"
+        }
+      ],
+      "personas": {
+        "professional_profile": {
+          "headline": "Software Engineering Student",
+          "linkedin_url": "https://linkedin.com/in/azhabalouch",
+          "resume_url": "https://example.com/resume.pdf"
+        },
+        "social_profile": {
+          "location_city": "London",
+          "birthday_display": "2000-01-01",
+          "status_msg": "Working on CM3070 Final Project"
+        },
+        "gaming_profile": {
+          "clan_tag": "[LDN]",
+          "discord_handle": "azha#1234",
+          "primary_platform": "PC"
+        }
+      }
+    }
+  }
+}
